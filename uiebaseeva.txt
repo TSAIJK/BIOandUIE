@@ -1,0 +1,20 @@
+[2022-09-22 15:15:13,288] [    INFO] - We are using <class 'paddlenlp.transformers.ernie.tokenizer.ErnieTokenizer'> to load './checkpoint/model_best'.
+W0922 15:15:13.361250 46226 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 7.5, Driver API Version: 10.2, Runtime API Version: 10.2
+W0922 15:15:13.362455 46226 gpu_resources.cc:91] device: 0, cuDNN Version: 8.4.
+[2022-09-22 15:15:15,379] [    INFO] - -----------------------------
+[2022-09-22 15:15:15,379] [    INFO] - Class Name: all_classes
+[2022-09-22 15:15:15,379] [    INFO] - Evaluation Precision: 0.42857 | Recall: 0.15789 | F1: 0.23077
+
+
+
+[2022-09-22 15:16:22,573] [    INFO] - Class Name: Receptor
+[2022-09-22 15:16:22,574] [    INFO] - Evaluation Precision: 0.50000 | Recall: 0.40000 | F1: 0.44444
+[2022-09-22 15:16:22,627] [    INFO] - -----------------------------
+[2022-09-22 15:16:22,628] [    INFO] - Class Name: Phage
+[2022-09-22 15:16:22,628] [    INFO] - Evaluation Precision: 0.00000 | Recall: 0.00000 | F1: 0.00000
+[2022-09-22 15:16:22,671] [    INFO] - -----------------------------
+[2022-09-22 15:16:22,671] [    INFO] - Class Name: Bacteria
+[2022-09-22 15:16:22,671] [    INFO] - Evaluation Precision: 0.50000 | Recall: 0.50000 | F1: 0.50000
+[2022-09-22 15:16:22,734] [    INFO] - -----------------------------
+[2022-09-22 15:16:22,735] [    INFO] - Class Name: X的Is_Receptor
+[2022-09-22 15:16:22,735] [    INFO] - Evaluation Precision: 0.00000 | Recall: 0.00000 | F1: 0.00000
