@@ -14,7 +14,7 @@ python evaluate.py \
     --test_path ./data/dev.txt \
     --batch_size 16 \
     --max_seq_len 512 \
-    --multilingual
+    --multilingual（！！！在使用uie-base-en时候不可以带此参数）
 
     model_zoo/uie/README.md
 
