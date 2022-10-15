@@ -1,0 +1,465 @@
+/home/cjk/anaconda3/envs/paddleuie_py38/lib/python3.8/site-packages/paddlenlp/transformers/image_utils.py:213: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  resample=Image.BILINEAR,
+/home/cjk/anaconda3/envs/paddleuie_py38/lib/python3.8/site-packages/paddlenlp/transformers/image_utils.py:379: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  resample=Image.NEAREST,
+/home/cjk/anaconda3/envs/paddleuie_py38/lib/python3.8/site-packages/paddlenlp/transformers/ernie_vil/feature_extraction.py:65: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  resample=Image.BICUBIC,
+/home/cjk/anaconda3/envs/paddleuie_py38/lib/python3.8/site-packages/paddlenlp/transformers/clip/feature_extraction.py:64: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  resample=Image.BICUBIC,
+[32m[2022-10-15 16:08:04,368] [    INFO][0m - Downloading resource files...[0m
+[32m[2022-10-15 16:08:04,369] [    INFO][0m - We are using <class 'paddlenlp.transformers.ernie.tokenizer.ErnieTokenizer'> to load 'uie-base-en'.[0m
+W1015 16:08:04.384047 47242 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 7.5, Driver API Version: 10.2, Runtime API Version: 10.2
+W1015 16:08:04.384941 47242 gpu_resources.cc:91] device: 0, cuDNN Version: 8.4.
+[32m[2022-10-15 16:08:15,537] [    INFO][0m - global step 10, epoch: 1, loss: 0.00450, speed: 1.04 step/s[0m
+[32m[2022-10-15 16:08:24,125] [    INFO][0m - global step 20, epoch: 1, loss: 0.00389, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:08:32,718] [    INFO][0m - global step 30, epoch: 1, loss: 0.00379, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:08:40,957] [    INFO][0m - global step 40, epoch: 1, loss: 0.00371, speed: 1.21 step/s[0m
+[32m[2022-10-15 16:08:49,888] [    INFO][0m - global step 50, epoch: 2, loss: 0.00347, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:08:58,513] [    INFO][0m - global step 60, epoch: 2, loss: 0.00345, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:09:07,173] [    INFO][0m - global step 70, epoch: 2, loss: 0.00329, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:09:15,569] [    INFO][0m - global step 80, epoch: 2, loss: 0.00323, speed: 1.19 step/s[0m
+[32m[2022-10-15 16:09:24,504] [    INFO][0m - global step 90, epoch: 3, loss: 0.00314, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:09:33,174] [    INFO][0m - global step 100, epoch: 3, loss: 0.00306, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:09:35,722] [    INFO][0m - Evaluation precision: 0.40000, recall: 0.19048, F1: 0.25806[0m
+[32m[2022-10-15 16:09:35,723] [    INFO][0m - best F1 performence has been updated: 0.00000 --> 0.25806[0m
+[32m[2022-10-15 16:09:45,196] [    INFO][0m - global step 110, epoch: 3, loss: 0.00304, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:09:53,751] [    INFO][0m - global step 120, epoch: 3, loss: 0.00292, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:10:02,549] [    INFO][0m - global step 130, epoch: 4, loss: 0.00282, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:10:11,333] [    INFO][0m - global step 140, epoch: 4, loss: 0.00275, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:10:20,080] [    INFO][0m - global step 150, epoch: 4, loss: 0.00266, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:10:28,702] [    INFO][0m - global step 160, epoch: 4, loss: 0.00261, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:10:37,439] [    INFO][0m - global step 170, epoch: 5, loss: 0.00254, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:10:46,173] [    INFO][0m - global step 180, epoch: 5, loss: 0.00248, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:10:55,005] [    INFO][0m - global step 190, epoch: 5, loss: 0.00242, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:11:03,745] [    INFO][0m - global step 200, epoch: 5, loss: 0.00237, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:11:06,283] [    INFO][0m - Evaluation precision: 0.37500, recall: 0.14286, F1: 0.20690[0m
+[32m[2022-10-15 16:11:14,939] [    INFO][0m - global step 210, epoch: 6, loss: 0.00231, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:11:23,680] [    INFO][0m - global step 220, epoch: 6, loss: 0.00226, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:11:32,459] [    INFO][0m - global step 230, epoch: 6, loss: 0.00220, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:11:41,264] [    INFO][0m - global step 240, epoch: 6, loss: 0.00216, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:11:49,917] [    INFO][0m - global step 250, epoch: 7, loss: 0.00214, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:11:58,700] [    INFO][0m - global step 260, epoch: 7, loss: 0.00209, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:12:07,527] [    INFO][0m - global step 270, epoch: 7, loss: 0.00206, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:12:16,330] [    INFO][0m - global step 280, epoch: 7, loss: 0.00202, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:12:25,072] [    INFO][0m - global step 290, epoch: 8, loss: 0.00197, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:12:33,897] [    INFO][0m - global step 300, epoch: 8, loss: 0.00194, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:12:36,431] [    INFO][0m - Evaluation precision: 0.34091, recall: 0.23810, F1: 0.28037[0m
+[32m[2022-10-15 16:12:36,431] [    INFO][0m - best F1 performence has been updated: 0.25806 --> 0.28037[0m
+[32m[2022-10-15 16:12:46,032] [    INFO][0m - global step 310, epoch: 8, loss: 0.00190, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:12:54,807] [    INFO][0m - global step 320, epoch: 8, loss: 0.00187, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:13:03,555] [    INFO][0m - global step 330, epoch: 9, loss: 0.00185, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:13:12,348] [    INFO][0m - global step 340, epoch: 9, loss: 0.00182, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:13:21,128] [    INFO][0m - global step 350, epoch: 9, loss: 0.00180, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:13:29,937] [    INFO][0m - global step 360, epoch: 9, loss: 0.00177, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:13:38,631] [    INFO][0m - global step 370, epoch: 10, loss: 0.00174, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:13:47,493] [    INFO][0m - global step 380, epoch: 10, loss: 0.00171, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:13:56,302] [    INFO][0m - global step 390, epoch: 10, loss: 0.00169, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:14:05,116] [    INFO][0m - global step 400, epoch: 10, loss: 0.00167, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:14:07,666] [    INFO][0m - Evaluation precision: 0.24615, recall: 0.25397, F1: 0.25000[0m
+[32m[2022-10-15 16:14:16,034] [    INFO][0m - global step 410, epoch: 10, loss: 0.00165, speed: 1.20 step/s[0m
+[32m[2022-10-15 16:14:25,142] [    INFO][0m - global step 420, epoch: 11, loss: 0.00163, speed: 1.10 step/s[0m
+[32m[2022-10-15 16:14:34,007] [    INFO][0m - global step 430, epoch: 11, loss: 0.00160, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:14:42,805] [    INFO][0m - global step 440, epoch: 11, loss: 0.00159, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:14:51,259] [    INFO][0m - global step 450, epoch: 11, loss: 0.00156, speed: 1.18 step/s[0m
+[32m[2022-10-15 16:15:00,313] [    INFO][0m - global step 460, epoch: 12, loss: 0.00154, speed: 1.10 step/s[0m
+[32m[2022-10-15 16:15:09,102] [    INFO][0m - global step 470, epoch: 12, loss: 0.00152, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:15:17,991] [    INFO][0m - global step 480, epoch: 12, loss: 0.00151, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:15:26,544] [    INFO][0m - global step 490, epoch: 12, loss: 0.00149, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:15:35,501] [    INFO][0m - global step 500, epoch: 13, loss: 0.00147, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:15:38,041] [    INFO][0m - Evaluation precision: 0.19403, recall: 0.20635, F1: 0.20000[0m
+[32m[2022-10-15 16:15:46,861] [    INFO][0m - global step 510, epoch: 13, loss: 0.00146, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:15:55,746] [    INFO][0m - global step 520, epoch: 13, loss: 0.00144, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:16:04,370] [    INFO][0m - global step 530, epoch: 13, loss: 0.00143, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:16:13,217] [    INFO][0m - global step 540, epoch: 14, loss: 0.00142, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:16:22,065] [    INFO][0m - global step 550, epoch: 14, loss: 0.00140, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:16:30,892] [    INFO][0m - global step 560, epoch: 14, loss: 0.00139, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:16:39,609] [    INFO][0m - global step 570, epoch: 14, loss: 0.00138, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:16:48,472] [    INFO][0m - global step 580, epoch: 15, loss: 0.00137, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:16:57,295] [    INFO][0m - global step 590, epoch: 15, loss: 0.00136, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:17:06,113] [    INFO][0m - global step 600, epoch: 15, loss: 0.00134, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:17:08,653] [    INFO][0m - Evaluation precision: 0.24615, recall: 0.25397, F1: 0.25000[0m
+[32m[2022-10-15 16:17:17,473] [    INFO][0m - global step 610, epoch: 15, loss: 0.00133, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:17:26,265] [    INFO][0m - global step 620, epoch: 16, loss: 0.00132, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:17:35,096] [    INFO][0m - global step 630, epoch: 16, loss: 0.00131, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:17:43,889] [    INFO][0m - global step 640, epoch: 16, loss: 0.00130, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:17:52,701] [    INFO][0m - global step 650, epoch: 16, loss: 0.00129, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:18:01,401] [    INFO][0m - global step 660, epoch: 17, loss: 0.00128, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:18:10,253] [    INFO][0m - global step 670, epoch: 17, loss: 0.00127, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:18:19,028] [    INFO][0m - global step 680, epoch: 17, loss: 0.00126, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:18:27,770] [    INFO][0m - global step 690, epoch: 17, loss: 0.00125, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:18:36,457] [    INFO][0m - global step 700, epoch: 18, loss: 0.00124, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:18:39,004] [    INFO][0m - Evaluation precision: 0.18667, recall: 0.22222, F1: 0.20290[0m
+[32m[2022-10-15 16:18:47,803] [    INFO][0m - global step 710, epoch: 18, loss: 0.00123, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:18:56,688] [    INFO][0m - global step 720, epoch: 18, loss: 0.00122, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:19:05,456] [    INFO][0m - global step 730, epoch: 18, loss: 0.00122, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:19:14,169] [    INFO][0m - global step 740, epoch: 19, loss: 0.00121, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:19:22,987] [    INFO][0m - global step 750, epoch: 19, loss: 0.00120, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:19:31,809] [    INFO][0m - global step 760, epoch: 19, loss: 0.00120, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:19:40,700] [    INFO][0m - global step 770, epoch: 19, loss: 0.00119, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:19:49,399] [    INFO][0m - global step 780, epoch: 20, loss: 0.00118, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:19:58,246] [    INFO][0m - global step 790, epoch: 20, loss: 0.00117, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:20:07,073] [    INFO][0m - global step 800, epoch: 20, loss: 0.00116, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:20:09,616] [    INFO][0m - Evaluation precision: 0.28571, recall: 0.25397, F1: 0.26891[0m
+[32m[2022-10-15 16:20:18,502] [    INFO][0m - global step 810, epoch: 20, loss: 0.00116, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:20:26,842] [    INFO][0m - global step 820, epoch: 20, loss: 0.00115, speed: 1.20 step/s[0m
+[32m[2022-10-15 16:20:35,996] [    INFO][0m - global step 830, epoch: 21, loss: 0.00114, speed: 1.09 step/s[0m
+[32m[2022-10-15 16:20:44,835] [    INFO][0m - global step 840, epoch: 21, loss: 0.00114, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:20:53,652] [    INFO][0m - global step 850, epoch: 21, loss: 0.00113, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:21:02,116] [    INFO][0m - global step 860, epoch: 21, loss: 0.00112, speed: 1.18 step/s[0m
+[32m[2022-10-15 16:21:11,233] [    INFO][0m - global step 870, epoch: 22, loss: 0.00112, speed: 1.10 step/s[0m
+[32m[2022-10-15 16:21:20,067] [    INFO][0m - global step 880, epoch: 22, loss: 0.00111, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:21:28,882] [    INFO][0m - global step 890, epoch: 22, loss: 0.00110, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:21:37,463] [    INFO][0m - global step 900, epoch: 22, loss: 0.00110, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:21:40,003] [    INFO][0m - Evaluation precision: 0.34375, recall: 0.17460, F1: 0.23158[0m
+[32m[2022-10-15 16:21:49,051] [    INFO][0m - global step 910, epoch: 23, loss: 0.00109, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:21:57,879] [    INFO][0m - global step 920, epoch: 23, loss: 0.00109, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:22:06,683] [    INFO][0m - global step 930, epoch: 23, loss: 0.00108, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:22:15,318] [    INFO][0m - global step 940, epoch: 23, loss: 0.00108, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:22:24,184] [    INFO][0m - global step 950, epoch: 24, loss: 0.00107, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:22:33,072] [    INFO][0m - global step 960, epoch: 24, loss: 0.00106, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:22:41,889] [    INFO][0m - global step 970, epoch: 24, loss: 0.00106, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:22:50,642] [    INFO][0m - global step 980, epoch: 24, loss: 0.00105, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:22:59,430] [    INFO][0m - global step 990, epoch: 25, loss: 0.00105, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:23:08,264] [    INFO][0m - global step 1000, epoch: 25, loss: 0.00105, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:23:10,854] [    INFO][0m - Evaluation precision: 0.21053, recall: 0.19048, F1: 0.20000[0m
+[32m[2022-10-15 16:23:19,674] [    INFO][0m - global step 1010, epoch: 25, loss: 0.00104, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:23:28,510] [    INFO][0m - global step 1020, epoch: 25, loss: 0.00104, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:23:37,234] [    INFO][0m - global step 1030, epoch: 26, loss: 0.00103, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:23:46,050] [    INFO][0m - global step 1040, epoch: 26, loss: 0.00103, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:23:54,878] [    INFO][0m - global step 1050, epoch: 26, loss: 0.00102, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:24:03,759] [    INFO][0m - global step 1060, epoch: 26, loss: 0.00102, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:24:12,460] [    INFO][0m - global step 1070, epoch: 27, loss: 0.00101, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:24:21,258] [    INFO][0m - global step 1080, epoch: 27, loss: 0.00101, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:24:30,096] [    INFO][0m - global step 1090, epoch: 27, loss: 0.00101, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:24:38,922] [    INFO][0m - global step 1100, epoch: 27, loss: 0.00100, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:24:41,498] [    INFO][0m - Evaluation precision: 0.29412, recall: 0.15873, F1: 0.20619[0m
+[32m[2022-10-15 16:24:50,235] [    INFO][0m - global step 1110, epoch: 28, loss: 0.00100, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:24:59,033] [    INFO][0m - global step 1120, epoch: 28, loss: 0.00099, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:25:07,837] [    INFO][0m - global step 1130, epoch: 28, loss: 0.00099, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:25:16,649] [    INFO][0m - global step 1140, epoch: 28, loss: 0.00099, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:25:25,422] [    INFO][0m - global step 1150, epoch: 29, loss: 0.00098, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:25:34,247] [    INFO][0m - global step 1160, epoch: 29, loss: 0.00098, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:25:43,066] [    INFO][0m - global step 1170, epoch: 29, loss: 0.00098, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:25:51,920] [    INFO][0m - global step 1180, epoch: 29, loss: 0.00097, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:26:00,622] [    INFO][0m - global step 1190, epoch: 30, loss: 0.00097, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:26:09,497] [    INFO][0m - global step 1200, epoch: 30, loss: 0.00096, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:26:12,034] [    INFO][0m - Evaluation precision: 0.25641, recall: 0.15873, F1: 0.19608[0m
+[32m[2022-10-15 16:26:20,856] [    INFO][0m - global step 1210, epoch: 30, loss: 0.00096, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:26:29,672] [    INFO][0m - global step 1220, epoch: 30, loss: 0.00096, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:26:38,010] [    INFO][0m - global step 1230, epoch: 30, loss: 0.00095, speed: 1.20 step/s[0m
+[32m[2022-10-15 16:26:47,160] [    INFO][0m - global step 1240, epoch: 31, loss: 0.00095, speed: 1.09 step/s[0m
+[32m[2022-10-15 16:26:56,014] [    INFO][0m - global step 1250, epoch: 31, loss: 0.00095, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:27:04,841] [    INFO][0m - global step 1260, epoch: 31, loss: 0.00094, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:27:13,314] [    INFO][0m - global step 1270, epoch: 31, loss: 0.00094, speed: 1.18 step/s[0m
+[32m[2022-10-15 16:27:22,392] [    INFO][0m - global step 1280, epoch: 32, loss: 0.00094, speed: 1.10 step/s[0m
+[32m[2022-10-15 16:27:31,242] [    INFO][0m - global step 1290, epoch: 32, loss: 0.00094, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:27:40,076] [    INFO][0m - global step 1300, epoch: 32, loss: 0.00093, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:27:42,609] [    INFO][0m - Evaluation precision: 0.29268, recall: 0.19048, F1: 0.23077[0m
+[32m[2022-10-15 16:27:51,159] [    INFO][0m - global step 1310, epoch: 32, loss: 0.00093, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:28:00,100] [    INFO][0m - global step 1320, epoch: 33, loss: 0.00092, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:28:08,935] [    INFO][0m - global step 1330, epoch: 33, loss: 0.00092, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:28:17,839] [    INFO][0m - global step 1340, epoch: 33, loss: 0.00092, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:28:26,477] [    INFO][0m - global step 1350, epoch: 33, loss: 0.00091, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:28:35,330] [    INFO][0m - global step 1360, epoch: 34, loss: 0.00091, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:28:44,170] [    INFO][0m - global step 1370, epoch: 34, loss: 0.00091, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:28:53,007] [    INFO][0m - global step 1380, epoch: 34, loss: 0.00091, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:29:01,739] [    INFO][0m - global step 1390, epoch: 34, loss: 0.00090, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:29:10,603] [    INFO][0m - global step 1400, epoch: 35, loss: 0.00090, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:29:13,139] [    INFO][0m - Evaluation precision: 0.25490, recall: 0.20635, F1: 0.22807[0m
+[32m[2022-10-15 16:29:21,941] [    INFO][0m - global step 1410, epoch: 35, loss: 0.00090, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:29:30,768] [    INFO][0m - global step 1420, epoch: 35, loss: 0.00089, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:29:39,594] [    INFO][0m - global step 1430, epoch: 35, loss: 0.00089, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:29:48,354] [    INFO][0m - global step 1440, epoch: 36, loss: 0.00089, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:29:57,173] [    INFO][0m - global step 1450, epoch: 36, loss: 0.00089, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:30:05,990] [    INFO][0m - global step 1460, epoch: 36, loss: 0.00088, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:30:14,810] [    INFO][0m - global step 1470, epoch: 36, loss: 0.00088, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:30:23,497] [    INFO][0m - global step 1480, epoch: 37, loss: 0.00088, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:30:32,376] [    INFO][0m - global step 1490, epoch: 37, loss: 0.00088, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:30:41,224] [    INFO][0m - global step 1500, epoch: 37, loss: 0.00087, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:30:43,762] [    INFO][0m - Evaluation precision: 0.27027, recall: 0.15873, F1: 0.20000[0m
+[32m[2022-10-15 16:30:52,552] [    INFO][0m - global step 1510, epoch: 37, loss: 0.00087, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:31:01,310] [    INFO][0m - global step 1520, epoch: 38, loss: 0.00087, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:31:10,114] [    INFO][0m - global step 1530, epoch: 38, loss: 0.00087, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:31:18,971] [    INFO][0m - global step 1540, epoch: 38, loss: 0.00086, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:31:27,801] [    INFO][0m - global step 1550, epoch: 38, loss: 0.00086, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:31:36,500] [    INFO][0m - global step 1560, epoch: 39, loss: 0.00086, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:31:45,331] [    INFO][0m - global step 1570, epoch: 39, loss: 0.00086, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:31:54,142] [    INFO][0m - global step 1580, epoch: 39, loss: 0.00085, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:32:02,994] [    INFO][0m - global step 1590, epoch: 39, loss: 0.00085, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:32:11,682] [    INFO][0m - global step 1600, epoch: 40, loss: 0.00085, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:32:14,217] [    INFO][0m - Evaluation precision: 0.31250, recall: 0.15873, F1: 0.21053[0m
+[32m[2022-10-15 16:32:23,038] [    INFO][0m - global step 1610, epoch: 40, loss: 0.00085, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:32:31,879] [    INFO][0m - global step 1620, epoch: 40, loss: 0.00084, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:32:40,754] [    INFO][0m - global step 1630, epoch: 40, loss: 0.00084, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:32:49,111] [    INFO][0m - global step 1640, epoch: 40, loss: 0.00084, speed: 1.20 step/s[0m
+[32m[2022-10-15 16:32:58,270] [    INFO][0m - global step 1650, epoch: 41, loss: 0.00084, speed: 1.09 step/s[0m
+[32m[2022-10-15 16:33:07,087] [    INFO][0m - global step 1660, epoch: 41, loss: 0.00084, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:33:15,892] [    INFO][0m - global step 1670, epoch: 41, loss: 0.00083, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:33:24,362] [    INFO][0m - global step 1680, epoch: 41, loss: 0.00083, speed: 1.18 step/s[0m
+[32m[2022-10-15 16:33:33,496] [    INFO][0m - global step 1690, epoch: 42, loss: 0.00083, speed: 1.09 step/s[0m
+[32m[2022-10-15 16:33:42,293] [    INFO][0m - global step 1700, epoch: 42, loss: 0.00083, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:33:44,827] [    INFO][0m - Evaluation precision: 0.28947, recall: 0.17460, F1: 0.21782[0m
+[32m[2022-10-15 16:33:53,671] [    INFO][0m - global step 1710, epoch: 42, loss: 0.00082, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:34:02,224] [    INFO][0m - global step 1720, epoch: 42, loss: 0.00082, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:34:11,258] [    INFO][0m - global step 1730, epoch: 43, loss: 0.00082, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:34:20,072] [    INFO][0m - global step 1740, epoch: 43, loss: 0.00082, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:34:28,935] [    INFO][0m - global step 1750, epoch: 43, loss: 0.00082, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:34:37,553] [    INFO][0m - global step 1760, epoch: 43, loss: 0.00082, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:34:46,468] [    INFO][0m - global step 1770, epoch: 44, loss: 0.00081, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:34:55,316] [    INFO][0m - global step 1780, epoch: 44, loss: 0.00081, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:35:04,140] [    INFO][0m - global step 1790, epoch: 44, loss: 0.00081, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:35:12,888] [    INFO][0m - global step 1800, epoch: 44, loss: 0.00081, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:35:15,422] [    INFO][0m - Evaluation precision: 0.32353, recall: 0.17460, F1: 0.22680[0m
+[32m[2022-10-15 16:35:24,209] [    INFO][0m - global step 1810, epoch: 45, loss: 0.00081, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:35:33,086] [    INFO][0m - global step 1820, epoch: 45, loss: 0.00081, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:35:41,917] [    INFO][0m - global step 1830, epoch: 45, loss: 0.00080, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:35:50,743] [    INFO][0m - global step 1840, epoch: 45, loss: 0.00080, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:35:59,447] [    INFO][0m - global step 1850, epoch: 46, loss: 0.00080, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:36:08,247] [    INFO][0m - global step 1860, epoch: 46, loss: 0.00080, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:36:17,147] [    INFO][0m - global step 1870, epoch: 46, loss: 0.00080, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:36:25,971] [    INFO][0m - global step 1880, epoch: 46, loss: 0.00080, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:36:34,687] [    INFO][0m - global step 1890, epoch: 47, loss: 0.00079, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:36:43,469] [    INFO][0m - global step 1900, epoch: 47, loss: 0.00079, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:36:45,998] [    INFO][0m - Evaluation precision: 0.31429, recall: 0.17460, F1: 0.22449[0m
+[32m[2022-10-15 16:36:54,845] [    INFO][0m - global step 1910, epoch: 47, loss: 0.00079, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:37:03,735] [    INFO][0m - global step 1920, epoch: 47, loss: 0.00079, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:37:12,426] [    INFO][0m - global step 1930, epoch: 48, loss: 0.00079, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:37:21,256] [    INFO][0m - global step 1940, epoch: 48, loss: 0.00079, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:37:30,061] [    INFO][0m - global step 1950, epoch: 48, loss: 0.00078, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:37:38,898] [    INFO][0m - global step 1960, epoch: 48, loss: 0.00078, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:37:47,648] [    INFO][0m - global step 1970, epoch: 49, loss: 0.00078, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:37:56,475] [    INFO][0m - global step 1980, epoch: 49, loss: 0.00078, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:38:05,290] [    INFO][0m - global step 1990, epoch: 49, loss: 0.00078, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:38:14,125] [    INFO][0m - global step 2000, epoch: 49, loss: 0.00078, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:38:16,660] [    INFO][0m - Evaluation precision: 0.35294, recall: 0.19048, F1: 0.24742[0m
+[32m[2022-10-15 16:38:25,343] [    INFO][0m - global step 2010, epoch: 50, loss: 0.00078, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:38:34,070] [    INFO][0m - global step 2020, epoch: 50, loss: 0.00078, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:38:42,690] [    INFO][0m - global step 2030, epoch: 50, loss: 0.00077, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:38:51,300] [    INFO][0m - global step 2040, epoch: 50, loss: 0.00077, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:38:59,567] [    INFO][0m - global step 2050, epoch: 50, loss: 0.00077, speed: 1.21 step/s[0m
+[32m[2022-10-15 16:39:08,747] [    INFO][0m - global step 2060, epoch: 51, loss: 0.00077, speed: 1.09 step/s[0m
+[32m[2022-10-15 16:39:17,623] [    INFO][0m - global step 2070, epoch: 51, loss: 0.00077, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:39:26,415] [    INFO][0m - global step 2080, epoch: 51, loss: 0.00077, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:39:34,886] [    INFO][0m - global step 2090, epoch: 51, loss: 0.00077, speed: 1.18 step/s[0m
+[32m[2022-10-15 16:39:43,925] [    INFO][0m - global step 2100, epoch: 52, loss: 0.00077, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:39:46,450] [    INFO][0m - Evaluation precision: 0.23913, recall: 0.17460, F1: 0.20183[0m
+[32m[2022-10-15 16:39:55,330] [    INFO][0m - global step 2110, epoch: 52, loss: 0.00077, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:40:04,183] [    INFO][0m - global step 2120, epoch: 52, loss: 0.00076, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:40:12,736] [    INFO][0m - global step 2130, epoch: 52, loss: 0.00076, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:40:21,711] [    INFO][0m - global step 2140, epoch: 53, loss: 0.00076, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:40:30,530] [    INFO][0m - global step 2150, epoch: 53, loss: 0.00076, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:40:39,405] [    INFO][0m - global step 2160, epoch: 53, loss: 0.00076, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:40:48,060] [    INFO][0m - global step 2170, epoch: 53, loss: 0.00076, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:40:56,918] [    INFO][0m - global step 2180, epoch: 54, loss: 0.00076, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:41:05,729] [    INFO][0m - global step 2190, epoch: 54, loss: 0.00076, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:41:14,516] [    INFO][0m - global step 2200, epoch: 54, loss: 0.00075, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:41:17,040] [    INFO][0m - Evaluation precision: 0.25000, recall: 0.22222, F1: 0.23529[0m
+[32m[2022-10-15 16:41:25,849] [    INFO][0m - global step 2210, epoch: 54, loss: 0.00076, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:41:34,650] [    INFO][0m - global step 2220, epoch: 55, loss: 0.00075, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:41:43,459] [    INFO][0m - global step 2230, epoch: 55, loss: 0.00075, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:41:52,292] [    INFO][0m - global step 2240, epoch: 55, loss: 0.00075, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:42:01,109] [    INFO][0m - global step 2250, epoch: 55, loss: 0.00075, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:42:09,871] [    INFO][0m - global step 2260, epoch: 56, loss: 0.00075, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:42:18,675] [    INFO][0m - global step 2270, epoch: 56, loss: 0.00075, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:42:27,485] [    INFO][0m - global step 2280, epoch: 56, loss: 0.00075, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:42:36,297] [    INFO][0m - global step 2290, epoch: 56, loss: 0.00075, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:42:44,995] [    INFO][0m - global step 2300, epoch: 57, loss: 0.00075, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:42:47,517] [    INFO][0m - Evaluation precision: 0.22222, recall: 0.22222, F1: 0.22222[0m
+[32m[2022-10-15 16:42:56,367] [    INFO][0m - global step 2310, epoch: 57, loss: 0.00075, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:43:05,196] [    INFO][0m - global step 2320, epoch: 57, loss: 0.00074, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:43:14,016] [    INFO][0m - global step 2330, epoch: 57, loss: 0.00074, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:43:22,724] [    INFO][0m - global step 2340, epoch: 58, loss: 0.00074, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:43:31,545] [    INFO][0m - global step 2350, epoch: 58, loss: 0.00074, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:43:40,407] [    INFO][0m - global step 2360, epoch: 58, loss: 0.00074, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:43:49,195] [    INFO][0m - global step 2370, epoch: 58, loss: 0.00074, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:43:57,890] [    INFO][0m - global step 2380, epoch: 59, loss: 0.00074, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:44:06,715] [    INFO][0m - global step 2390, epoch: 59, loss: 0.00074, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:44:15,547] [    INFO][0m - global step 2400, epoch: 59, loss: 0.00074, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:44:18,123] [    INFO][0m - Evaluation precision: 0.42308, recall: 0.17460, F1: 0.24719[0m
+[32m[2022-10-15 16:44:26,891] [    INFO][0m - global step 2410, epoch: 59, loss: 0.00074, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:44:35,593] [    INFO][0m - global step 2420, epoch: 60, loss: 0.00074, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:44:44,405] [    INFO][0m - global step 2430, epoch: 60, loss: 0.00074, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:44:53,195] [    INFO][0m - global step 2440, epoch: 60, loss: 0.00073, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:45:02,073] [    INFO][0m - global step 2450, epoch: 60, loss: 0.00073, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:45:10,416] [    INFO][0m - global step 2460, epoch: 60, loss: 0.00073, speed: 1.20 step/s[0m
+[32m[2022-10-15 16:45:19,568] [    INFO][0m - global step 2470, epoch: 61, loss: 0.00073, speed: 1.09 step/s[0m
+[32m[2022-10-15 16:45:28,407] [    INFO][0m - global step 2480, epoch: 61, loss: 0.00073, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:45:37,215] [    INFO][0m - global step 2490, epoch: 61, loss: 0.00073, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:45:45,643] [    INFO][0m - global step 2500, epoch: 61, loss: 0.00073, speed: 1.19 step/s[0m
+[32m[2022-10-15 16:45:48,218] [    INFO][0m - Evaluation precision: 0.21053, recall: 0.25397, F1: 0.23022[0m
+[32m[2022-10-15 16:45:57,255] [    INFO][0m - global step 2510, epoch: 62, loss: 0.00073, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:46:06,034] [    INFO][0m - global step 2520, epoch: 62, loss: 0.00073, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:46:14,854] [    INFO][0m - global step 2530, epoch: 62, loss: 0.00073, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:46:23,415] [    INFO][0m - global step 2540, epoch: 62, loss: 0.00073, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:46:32,459] [    INFO][0m - global step 2550, epoch: 63, loss: 0.00073, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:46:41,286] [    INFO][0m - global step 2560, epoch: 63, loss: 0.00073, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:46:50,101] [    INFO][0m - global step 2570, epoch: 63, loss: 0.00073, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:46:58,735] [    INFO][0m - global step 2580, epoch: 63, loss: 0.00073, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:47:07,598] [    INFO][0m - global step 2590, epoch: 64, loss: 0.00073, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:47:16,477] [    INFO][0m - global step 2600, epoch: 64, loss: 0.00072, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:47:18,998] [    INFO][0m - Evaluation precision: 0.29730, recall: 0.17460, F1: 0.22000[0m
+[32m[2022-10-15 16:47:27,818] [    INFO][0m - global step 2610, epoch: 64, loss: 0.00072, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:47:36,540] [    INFO][0m - global step 2620, epoch: 64, loss: 0.00072, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:47:45,308] [    INFO][0m - global step 2630, epoch: 65, loss: 0.00072, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:47:54,201] [    INFO][0m - global step 2640, epoch: 65, loss: 0.00072, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:48:03,007] [    INFO][0m - global step 2650, epoch: 65, loss: 0.00072, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:48:11,799] [    INFO][0m - global step 2660, epoch: 65, loss: 0.00072, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:48:20,475] [    INFO][0m - global step 2670, epoch: 66, loss: 0.00072, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:48:29,327] [    INFO][0m - global step 2680, epoch: 66, loss: 0.00072, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:48:38,205] [    INFO][0m - global step 2690, epoch: 66, loss: 0.00072, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:48:47,005] [    INFO][0m - global step 2700, epoch: 66, loss: 0.00072, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:48:49,518] [    INFO][0m - Evaluation precision: 0.29268, recall: 0.19048, F1: 0.23077[0m
+[32m[2022-10-15 16:48:58,219] [    INFO][0m - global step 2710, epoch: 67, loss: 0.00072, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:49:07,012] [    INFO][0m - global step 2720, epoch: 67, loss: 0.00071, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:49:15,834] [    INFO][0m - global step 2730, epoch: 67, loss: 0.00071, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:49:24,714] [    INFO][0m - global step 2740, epoch: 67, loss: 0.00071, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:49:33,434] [    INFO][0m - global step 2750, epoch: 68, loss: 0.00071, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:49:42,246] [    INFO][0m - global step 2760, epoch: 68, loss: 0.00071, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:49:51,050] [    INFO][0m - global step 2770, epoch: 68, loss: 0.00071, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:49:59,857] [    INFO][0m - global step 2780, epoch: 68, loss: 0.00071, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:50:08,645] [    INFO][0m - global step 2790, epoch: 69, loss: 0.00071, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:50:17,462] [    INFO][0m - global step 2800, epoch: 69, loss: 0.00071, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:50:19,976] [    INFO][0m - Evaluation precision: 0.30000, recall: 0.19048, F1: 0.23301[0m
+[32m[2022-10-15 16:50:28,796] [    INFO][0m - global step 2810, epoch: 69, loss: 0.00071, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:50:37,595] [    INFO][0m - global step 2820, epoch: 69, loss: 0.00071, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:50:46,301] [    INFO][0m - global step 2830, epoch: 70, loss: 0.00071, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:50:55,182] [    INFO][0m - global step 2840, epoch: 70, loss: 0.00070, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:51:03,988] [    INFO][0m - global step 2850, epoch: 70, loss: 0.00070, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:51:12,770] [    INFO][0m - global step 2860, epoch: 70, loss: 0.00070, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:51:21,134] [    INFO][0m - global step 2870, epoch: 70, loss: 0.00070, speed: 1.20 step/s[0m
+[32m[2022-10-15 16:51:30,274] [    INFO][0m - global step 2880, epoch: 71, loss: 0.00070, speed: 1.09 step/s[0m
+[32m[2022-10-15 16:51:39,141] [    INFO][0m - global step 2890, epoch: 71, loss: 0.00070, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:51:47,946] [    INFO][0m - global step 2900, epoch: 71, loss: 0.00070, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:51:50,460] [    INFO][0m - Evaluation precision: 0.26829, recall: 0.17460, F1: 0.21154[0m
+[32m[2022-10-15 16:51:58,922] [    INFO][0m - global step 2910, epoch: 71, loss: 0.00070, speed: 1.18 step/s[0m
+[32m[2022-10-15 16:52:07,945] [    INFO][0m - global step 2920, epoch: 72, loss: 0.00070, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:52:16,802] [    INFO][0m - global step 2930, epoch: 72, loss: 0.00070, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:52:25,621] [    INFO][0m - global step 2940, epoch: 72, loss: 0.00070, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:52:34,195] [    INFO][0m - global step 2950, epoch: 72, loss: 0.00070, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:52:43,177] [    INFO][0m - global step 2960, epoch: 73, loss: 0.00070, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:52:52,019] [    INFO][0m - global step 2970, epoch: 73, loss: 0.00070, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:53:00,884] [    INFO][0m - global step 2980, epoch: 73, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:53:09,517] [    INFO][0m - global step 2990, epoch: 73, loss: 0.00069, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:53:18,419] [    INFO][0m - global step 3000, epoch: 74, loss: 0.00069, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:53:20,937] [    INFO][0m - Evaluation precision: 0.29545, recall: 0.20635, F1: 0.24299[0m
+[32m[2022-10-15 16:53:29,758] [    INFO][0m - global step 3010, epoch: 74, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:53:38,573] [    INFO][0m - global step 3020, epoch: 74, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:53:47,343] [    INFO][0m - global step 3030, epoch: 74, loss: 0.00069, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:53:56,115] [    INFO][0m - global step 3040, epoch: 75, loss: 0.00069, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:54:04,961] [    INFO][0m - global step 3050, epoch: 75, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:54:13,791] [    INFO][0m - global step 3060, epoch: 75, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:54:22,605] [    INFO][0m - global step 3070, epoch: 75, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:54:31,329] [    INFO][0m - global step 3080, epoch: 76, loss: 0.00069, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:54:40,140] [    INFO][0m - global step 3090, epoch: 76, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:54:48,992] [    INFO][0m - global step 3100, epoch: 76, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:54:51,515] [    INFO][0m - Evaluation precision: 0.26531, recall: 0.20635, F1: 0.23214[0m
+[32m[2022-10-15 16:55:00,358] [    INFO][0m - global step 3110, epoch: 76, loss: 0.00069, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:55:09,049] [    INFO][0m - global step 3120, epoch: 77, loss: 0.00069, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:55:17,944] [    INFO][0m - global step 3130, epoch: 77, loss: 0.00069, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:55:26,744] [    INFO][0m - global step 3140, epoch: 77, loss: 0.00068, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:55:35,590] [    INFO][0m - global step 3150, epoch: 77, loss: 0.00068, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:55:44,286] [    INFO][0m - global step 3160, epoch: 78, loss: 0.00068, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:55:53,088] [    INFO][0m - global step 3170, epoch: 78, loss: 0.00068, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:56:01,955] [    INFO][0m - global step 3180, epoch: 78, loss: 0.00068, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:56:10,774] [    INFO][0m - global step 3190, epoch: 78, loss: 0.00068, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:56:19,512] [    INFO][0m - global step 3200, epoch: 79, loss: 0.00068, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:56:22,031] [    INFO][0m - Evaluation precision: 0.26415, recall: 0.22222, F1: 0.24138[0m
+[32m[2022-10-15 16:56:30,820] [    INFO][0m - global step 3210, epoch: 79, loss: 0.00068, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:56:39,688] [    INFO][0m - global step 3220, epoch: 79, loss: 0.00068, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:56:48,508] [    INFO][0m - global step 3230, epoch: 79, loss: 0.00068, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:56:57,212] [    INFO][0m - global step 3240, epoch: 80, loss: 0.00068, speed: 1.15 step/s[0m
+[32m[2022-10-15 16:57:06,067] [    INFO][0m - global step 3250, epoch: 80, loss: 0.00068, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:57:14,897] [    INFO][0m - global step 3260, epoch: 80, loss: 0.00068, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:57:23,766] [    INFO][0m - global step 3270, epoch: 80, loss: 0.00068, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:57:32,114] [    INFO][0m - global step 3280, epoch: 80, loss: 0.00068, speed: 1.20 step/s[0m
+[32m[2022-10-15 16:57:41,292] [    INFO][0m - global step 3290, epoch: 81, loss: 0.00067, speed: 1.09 step/s[0m
+[32m[2022-10-15 16:57:50,104] [    INFO][0m - global step 3300, epoch: 81, loss: 0.00067, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:57:52,629] [    INFO][0m - Evaluation precision: 0.27907, recall: 0.19048, F1: 0.22642[0m
+[32m[2022-10-15 16:58:01,414] [    INFO][0m - global step 3310, epoch: 81, loss: 0.00067, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:58:09,908] [    INFO][0m - global step 3320, epoch: 81, loss: 0.00067, speed: 1.18 step/s[0m
+[32m[2022-10-15 16:58:18,941] [    INFO][0m - global step 3330, epoch: 82, loss: 0.00067, speed: 1.11 step/s[0m
+[32m[2022-10-15 16:58:27,783] [    INFO][0m - global step 3340, epoch: 82, loss: 0.00067, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:58:36,646] [    INFO][0m - global step 3350, epoch: 82, loss: 0.00067, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:58:45,196] [    INFO][0m - global step 3360, epoch: 82, loss: 0.00067, speed: 1.17 step/s[0m
+[32m[2022-10-15 16:58:54,255] [    INFO][0m - global step 3370, epoch: 83, loss: 0.00067, speed: 1.10 step/s[0m
+[32m[2022-10-15 16:59:03,049] [    INFO][0m - global step 3380, epoch: 83, loss: 0.00067, speed: 1.14 step/s[0m
+[32m[2022-10-15 16:59:11,880] [    INFO][0m - global step 3390, epoch: 83, loss: 0.00067, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:59:20,528] [    INFO][0m - global step 3400, epoch: 83, loss: 0.00067, speed: 1.16 step/s[0m
+[32m[2022-10-15 16:59:23,034] [    INFO][0m - Evaluation precision: 0.28261, recall: 0.20635, F1: 0.23853[0m
+[32m[2022-10-15 16:59:31,975] [    INFO][0m - global step 3410, epoch: 84, loss: 0.00067, speed: 1.12 step/s[0m
+[32m[2022-10-15 16:59:40,809] [    INFO][0m - global step 3420, epoch: 84, loss: 0.00067, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:59:49,651] [    INFO][0m - global step 3430, epoch: 84, loss: 0.00067, speed: 1.13 step/s[0m
+[32m[2022-10-15 16:59:58,378] [    INFO][0m - global step 3440, epoch: 84, loss: 0.00067, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:00:07,184] [    INFO][0m - global step 3450, epoch: 85, loss: 0.00067, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:00:16,036] [    INFO][0m - global step 3460, epoch: 85, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:00:24,850] [    INFO][0m - global step 3470, epoch: 85, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:00:33,692] [    INFO][0m - global step 3480, epoch: 85, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:00:42,400] [    INFO][0m - global step 3490, epoch: 86, loss: 0.00066, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:00:51,230] [    INFO][0m - global step 3500, epoch: 86, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:00:53,756] [    INFO][0m - Evaluation precision: 0.25000, recall: 0.19048, F1: 0.21622[0m
+[32m[2022-10-15 17:01:02,623] [    INFO][0m - global step 3510, epoch: 86, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:01:11,453] [    INFO][0m - global step 3520, epoch: 86, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:01:20,171] [    INFO][0m - global step 3530, epoch: 87, loss: 0.00066, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:01:28,991] [    INFO][0m - global step 3540, epoch: 87, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:01:37,822] [    INFO][0m - global step 3550, epoch: 87, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:01:46,665] [    INFO][0m - global step 3560, epoch: 87, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:01:55,356] [    INFO][0m - global step 3570, epoch: 88, loss: 0.00066, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:02:04,174] [    INFO][0m - global step 3580, epoch: 88, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:02:12,990] [    INFO][0m - global step 3590, epoch: 88, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:02:21,830] [    INFO][0m - global step 3600, epoch: 88, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:02:24,354] [    INFO][0m - Evaluation precision: 0.27027, recall: 0.15873, F1: 0.20000[0m
+[32m[2022-10-15 17:02:33,113] [    INFO][0m - global step 3610, epoch: 89, loss: 0.00066, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:02:41,929] [    INFO][0m - global step 3620, epoch: 89, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:02:50,760] [    INFO][0m - global step 3630, epoch: 89, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:02:59,562] [    INFO][0m - global step 3640, epoch: 89, loss: 0.00066, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:03:08,237] [    INFO][0m - global step 3650, epoch: 90, loss: 0.00066, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:03:17,121] [    INFO][0m - global step 3660, epoch: 90, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:03:25,935] [    INFO][0m - global step 3670, epoch: 90, loss: 0.00066, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:03:34,764] [    INFO][0m - global step 3680, epoch: 90, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:03:43,129] [    INFO][0m - global step 3690, epoch: 90, loss: 0.00065, speed: 1.20 step/s[0m
+[32m[2022-10-15 17:03:52,277] [    INFO][0m - global step 3700, epoch: 91, loss: 0.00065, speed: 1.09 step/s[0m
+[32m[2022-10-15 17:03:54,866] [    INFO][0m - Evaluation precision: 0.27083, recall: 0.20635, F1: 0.23423[0m
+[32m[2022-10-15 17:04:03,687] [    INFO][0m - global step 3710, epoch: 91, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:04:12,527] [    INFO][0m - global step 3720, epoch: 91, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:04:20,983] [    INFO][0m - global step 3730, epoch: 91, loss: 0.00065, speed: 1.18 step/s[0m
+[32m[2022-10-15 17:04:30,061] [    INFO][0m - global step 3740, epoch: 92, loss: 0.00065, speed: 1.10 step/s[0m
+[32m[2022-10-15 17:04:38,918] [    INFO][0m - global step 3750, epoch: 92, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:04:47,715] [    INFO][0m - global step 3760, epoch: 92, loss: 0.00065, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:04:56,278] [    INFO][0m - global step 3770, epoch: 92, loss: 0.00065, speed: 1.17 step/s[0m
+[32m[2022-10-15 17:05:05,278] [    INFO][0m - global step 3780, epoch: 93, loss: 0.00065, speed: 1.11 step/s[0m
+[32m[2022-10-15 17:05:14,109] [    INFO][0m - global step 3790, epoch: 93, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:05:22,967] [    INFO][0m - global step 3800, epoch: 93, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:05:25,494] [    INFO][0m - Evaluation precision: 0.26829, recall: 0.17460, F1: 0.21154[0m
+[32m[2022-10-15 17:05:34,153] [    INFO][0m - global step 3810, epoch: 93, loss: 0.00065, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:05:43,057] [    INFO][0m - global step 3820, epoch: 94, loss: 0.00065, speed: 1.12 step/s[0m
+[32m[2022-10-15 17:05:51,864] [    INFO][0m - global step 3830, epoch: 94, loss: 0.00065, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:06:00,736] [    INFO][0m - global step 3840, epoch: 94, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:06:09,482] [    INFO][0m - global step 3850, epoch: 94, loss: 0.00065, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:06:18,267] [    INFO][0m - global step 3860, epoch: 95, loss: 0.00065, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:06:27,119] [    INFO][0m - global step 3870, epoch: 95, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:06:35,982] [    INFO][0m - global step 3880, epoch: 95, loss: 0.00065, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:06:44,772] [    INFO][0m - global step 3890, epoch: 95, loss: 0.00064, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:06:53,535] [    INFO][0m - global step 3900, epoch: 96, loss: 0.00064, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:06:56,060] [    INFO][0m - Evaluation precision: 0.30769, recall: 0.12698, F1: 0.17978[0m
+[32m[2022-10-15 17:07:04,880] [    INFO][0m - global step 3910, epoch: 96, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:07:13,663] [    INFO][0m - global step 3920, epoch: 96, loss: 0.00064, speed: 1.14 step/s[0m
+[32m[2022-10-15 17:07:22,527] [    INFO][0m - global step 3930, epoch: 96, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:07:31,223] [    INFO][0m - global step 3940, epoch: 97, loss: 0.00064, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:07:40,141] [    INFO][0m - global step 3950, epoch: 97, loss: 0.00064, speed: 1.12 step/s[0m
+[32m[2022-10-15 17:07:48,972] [    INFO][0m - global step 3960, epoch: 97, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:07:57,791] [    INFO][0m - global step 3970, epoch: 97, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:08:06,456] [    INFO][0m - global step 3980, epoch: 98, loss: 0.00064, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:08:15,310] [    INFO][0m - global step 3990, epoch: 98, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:08:24,196] [    INFO][0m - global step 4000, epoch: 98, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:08:26,726] [    INFO][0m - Evaluation precision: 0.25714, recall: 0.14286, F1: 0.18367[0m
+[32m[2022-10-15 17:08:35,580] [    INFO][0m - global step 4010, epoch: 98, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:08:44,287] [    INFO][0m - global step 4020, epoch: 99, loss: 0.00064, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:08:53,137] [    INFO][0m - global step 4030, epoch: 99, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:09:02,023] [    INFO][0m - global step 4040, epoch: 99, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:09:10,840] [    INFO][0m - global step 4050, epoch: 99, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:09:19,530] [    INFO][0m - global step 4060, epoch: 100, loss: 0.00064, speed: 1.15 step/s[0m
+[32m[2022-10-15 17:09:28,345] [    INFO][0m - global step 4070, epoch: 100, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:09:37,166] [    INFO][0m - global step 4080, epoch: 100, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:09:46,044] [    INFO][0m - global step 4090, epoch: 100, loss: 0.00064, speed: 1.13 step/s[0m
+[32m[2022-10-15 17:09:54,389] [    INFO][0m - global step 4100, epoch: 100, loss: 0.00064, speed: 1.20 step/s[0m
+[32m[2022-10-15 17:09:56,904] [    INFO][0m - Evaluation precision: 0.29412, recall: 0.15873, F1: 0.20619[0m
